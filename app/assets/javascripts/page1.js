@@ -1,6 +1,6 @@
-let exclaimify = require('./exclaimify')
+require('./asyncModules')
 
-console.log(exclaimify('page1.js loaded'))
+let exclaimify = require('./exclaimify')
 
 let button = document.getElementById('button');
 
